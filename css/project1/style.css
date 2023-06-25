@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    position: relative;
+}
+
+.body {
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.boll {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50px;
+    margin-left: 20px;
+
+}

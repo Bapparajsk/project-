@@ -1,0 +1,75 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: rgb(17, 33, 37);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 100px;
+    background-color: rgb(25, 50, 50);
+    border-radius: 20px;
+}
+
+
+.wab {
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 40px;
+    left: 10px;
+}
+
+.top-icon {
+    width: 100px;
+    position: relative;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-2 i {
+    position: relative;
+    top: 37px;
+    left: 7px;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 17px
+}
+
+#chats img{
+    width: 50px;
+    height: 50px;
+    background-size: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.info div {
+  margin-top: -20px;
+  margin-left: 5px;
+}
+
+.info div p {
+    position: relative;
+    top: -20px;
+}
+
+.time {
+    position: absolute;
+    right: 10px;
+    color: rgb(109, 105, 105);
+}
